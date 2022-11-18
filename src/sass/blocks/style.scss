@@ -1,0 +1,17 @@
+@import '../variables/reset';
+@import '../variables/button';
+@import '../variables/title';
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import '../blocks/header.scss';
+@import '../blocks/navigation.scss';
+@import '../blocks/style-help';
+@import '../blocks/table';
+@import '../blocks/description';
+@import '../blocks/services';
+@import '../blocks/proceess';
+@import '../blocks/footer';
+

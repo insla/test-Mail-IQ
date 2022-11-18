@@ -1,0 +1,33 @@
+.header {
+    position: relative;
+    height: 600px;
+    background-color: rgb(103, 103, 103);
+    background-image: url('../../img/bg-main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    &__wrapper {
+        margin-top: 150px;
+        img {
+            margin-bottom: 30px;
+        }
+        a {
+            color: rgb(255, 230, 41);
+        }
+        &_margin-top {
+            margin-top: 0;
+        }
+    }
+    @media (max-width: 992px) {
+        &__wrapper img {
+            height: 100px;
+        }
+    }
+    @media (max-width: 767px) {
+        &__wrapper {
+            margin-top: 0;
+            padding-top: 200px;
+        }
+    }
+}
+

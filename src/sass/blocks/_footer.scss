@@ -1,0 +1,41 @@
+.footer {
+    margin-top: 50px;
+    background-color: black;
+    padding-top: 30px;
+    &__ul {
+        margin-top: 30px;
+        color: #fff;
+        font-size: 14px;
+        li > a {
+            color: #fff;
+        }
+    }
+    &__center {
+        text-align: center;
+    }
+    &__button {
+        padding: 8px 15px;
+        background-color: #000;
+        transition: 0.5s;
+        font-size: 14px;
+        line-height: 8px;
+        color: #fff;
+        border: 2px solid #fff;
+        cursor: pointer;
+        &:hover {
+            background-color: rgb(100, 65, 255);
+            text-decoration: none;
+            color:#fff;
+        }
+        &::after {
+            content : ' ∧';
+            font-weight: 700;
+        }
+    }
+    @media (max-width: 767px) {
+        &__ul {
+            margin-top: 50px;
+            text-align: center;
+        }
+    }
+}
